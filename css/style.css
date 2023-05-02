@@ -1,0 +1,326 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header{
+    background-color: #fcdb00;
+    padding-top: 61px;
+    padding-bottom: 107px;
+}
+
+.nav-menu{
+    margin-top: 11px;
+    margin-right: 26px;
+}
+
+.menu a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu__item {
+    /* Style for "Support" */
+    color: #010101;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 33px;
+}
+
+.menu__item:hover{
+    color: white;
+    transition: .3s all ease;
+}
+
+.inspire{
+    margin-top: 136px;
+}
+
+.post__title{
+    margin-bottom: 22px;
+}
+
+.post__preview{
+    max-width: 309px;
+}
+
+.post__text{
+    max-width: 390px;
+}
+
+.post button{
+    /* Style for "DOWNLOAD" */
+    color: #2d2d2d;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 29px;
+}
+
+.block-img{
+    margin-top: 67px;
+}
+
+/* Fuatured*/
+
+.features{
+    padding-top: 112px;
+    padding-bottom: 77px;
+}
+
+.features-header{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding-bottom: 38px;
+    margin-bottom: 48px;
+    border-bottom: 1px solid #acacac;;
+}
+
+.features-header__title{
+    margin-bottom: 17px;
+}
+
+.features-header__text{
+    max-width: 732px;
+}
+
+.features-wrapper{
+    max-width: 271px;
+}
+
+.features-item__text{
+    max-width: 207px;
+}
+
+.space{
+    margin-bottom: 87px;
+}
+
+/* section-form */
+
+.section-form{
+    background-color: #010101;
+    padding-top: 96px;
+}
+
+.section-form-header{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+.section-form-header__title{
+    margin-bottom: 17px;
+    color: #fcdb00;
+}
+
+.section-form-header__text{
+    max-width: 732px;
+    color: #898989;
+}
+
+.form-footer{
+    margin-bottom: 56px;
+    text-align: center; 
+}
+
+.mail{
+    /* Style for "input-emai" */
+    width: 580px;
+    height: 50px;
+    background-color: #ffffff;
+    padding: 0 24px;
+    /* Style for "Enter your" */
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    margin-right: 21px;
+}
+
+.but-form-footer{
+    /* Style for "btn" */
+    width: 126px;
+    height: 50px;
+    background-color: #fcdb00;
+    border: none;
+    border-radius: 5px;
+    /* Style for "SUBMIT" */
+    color: #010101;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    outline: none;
+}
+
+.but-form-footer:active{
+    background-color: #ffffff;
+    border: 3px solid #fcdb00;
+    outline: none;
+}
+
+/* footer */
+
+.footer{
+    background-color: #010101;
+    padding-bottom: 68px;
+}
+
+.footer-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top:45px;
+}
+
+.footer-block-text{
+    max-width: 183px;
+    text-align: center;
+    /* Style for "HALOVIETNA" */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* Параграфы и заголовки */
+
+h1{
+    /* Style for "Inspire yo" */
+    color: #010101;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+h2{
+    /* Style for "Lorem ipsu" */
+    color: #555555;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+h3{
+    /* Style for "Fully Resp" */
+    color: #010101;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+p{
+    /* Style for "Simple to" */
+    color: #313841;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media screen and (max-width:992px){
+    .features-item__text{
+        max-width: none;
+    }
+    .link-logo{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .logo{
+        display: block;
+        margin: 0 auto;
+    }
+    .menu__item{
+        margin: 0 33px;
+    }
+
+    .post{
+        text-align: -webkit-center;
+    }
+    .inspire{
+        margin-top: 75px;
+    }
+    .post__text{
+        max-width: 600px;
+    }
+    .mail {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .but-form-footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .link-logo{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .logo{
+        display: block;
+        margin: 0 auto;
+    }
+    .menu__item{
+        margin: 0 55px;
+    }
+    .post{
+        text-align: -webkit-center;
+    }
+    .inspire{
+        margin-top: 75px;
+    }
+    .features-item__text{
+        max-width: none;
+    }
+}
+
+@media screen and (max-width:576px){
+    .mail{
+        margin-right: 0;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu__item{
+        padding-bottom: 24px;
+    }
+    .post__title{
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .post__title{
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
